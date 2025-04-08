@@ -1,6 +1,6 @@
 ##  PRS-Net: Planar Reflective Symmetry Detection Net for 3D Models
 
-![image-20250408210947621](C:\Users\m1856\AppData\Roaming\Typora\typora-user-images\image-20250408210947621.png)
+![image-20250408210947621](image-20250408210947621.png)
 
 ###  Background & Motivation
 
