@@ -1,7 +1,10 @@
 ##  PRS-Net: Planar Reflective Symmetry Detection Net for 3D Models
 
 ![image-20250408210947621](image-20250408210947621.png)
+This is from a paper by Prof. Takabayashi published in 2021.(TVCG 2021)
+Here is the original paper link:[PRS-Net: Planar Reflective Symmetry Detection Net for 3D Models](https://arxiv.org/pdf/1910.06511)
 
+This repositories' method managing datasets coming from :[https://github.com/IGLICT/PRS-Net?tab=readme-ov-file]
 ###  Background & Motivation
 
 - **Problem**: Traditional symmetry detection methods (e.g., spatial sampling/PCA) are slow and miss non-orthogonal symmetry planes.
