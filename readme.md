@@ -55,3 +55,44 @@ This repositories' method managing datasets coming from :[https://github.com/IGL
 
    - Dihedral angle threshold (π/6)
    - Symmetry error threshold (4×10^-4)
+### The way to get and process the dataset:
+
+you can get the dataset through this link or from the huggingface.io:
+
+https://pan.baidu.com/s/1WnJIAk4slq99GzE08dELqA?from=init
+
+then you should run:
+
+```shell
+python preprocessed.py
+```
+
+you can get a folder named processed(content like this pic2),then you can follow steps down this.
+
+![image-20250408213801130](C:\Users\m1856\AppData\Roaming\Typora\typora-user-images\image-20250408213801130.png)
+
+### The device requirement:
+
+I train model using RTX 4060(8GB) for 300 epoches for 10 hours,i use cuda(which is shown in requirements.txt),but you can also use cpu if you can accept the very slow speed.
+
+I open my train model in link:best_model_weights.pth
+: https://pan.baidu.com/s/1NkVOJPDOgVAV6J7ZVQSPUw?pwd=t4v5   code: t4v5
+
+### The way to run my code:
+
+```shell
+conda create -n prsnet python=3.10
+pip install -r requirements.txt
+conda activate prsnet
+
+#(if you wanna train mode):
+#please run:
+python train.py
+#(if you wanna demo,you can just run :
+python demo.py
+#you can get the pridected plane demo for your 3D model
+#if you wanna view dataset different files,please apply the fuction in 
+python viewer.py
+#have binvox view, pointclouds view and so on...
+```
+
