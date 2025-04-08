@@ -69,7 +69,7 @@ python preprocessed.py
 
 you can get a folder named processed(content like this pic2),then you can follow steps down this.
 
-![image-20250408213801130](C:\Users\m1856\AppData\Roaming\Typora\typora-user-images\image-20250408213801130.png)
+![image-20250408213801130](image-20250408213801130.png)
 
 ### The device requirement:
 
