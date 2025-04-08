@@ -59,7 +59,7 @@ This repositories' method managing datasets coming from :[https://github.com/IGL
 
 you can get the dataset through this link or from the huggingface.io:
 
-https://pan.baidu.com/s/1WnJIAk4slq99GzE08dELqA?from=init
+https://pan.baidu.com/s/1WnJIAk4slq99GzE08dELqA?from=init code:aic6 
 
 then you should run:
 
