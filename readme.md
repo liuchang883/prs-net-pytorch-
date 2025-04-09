@@ -44,7 +44,7 @@ This repositories' method managing datasets coming from :[https://github.com/IGL
 
 2. **Regularization Loss (L_r)**
     Prevents duplicated outputs by enforcing orthogonality:
-   $ L_r = ||M1M1^T - I||_F^2 + ||M2M2^T - I||_F^2$
+   $L_r = ||M1M1^T - I||_F^2 + ||M2M2^T - I||_F^2$
 
 3. **Validation Stage**
     Filters invalid/duplicated outputs using:
